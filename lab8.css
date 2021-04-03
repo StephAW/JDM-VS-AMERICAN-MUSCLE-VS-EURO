@@ -1,0 +1,47 @@
+h1{
+	text-align:center;
+	font-size:10rem;
+	color:red;
+}
+div{
+	text-align:center;
+}
+.button {
+    color: red;
+    background: white;
+    padding: .5rem 2rem;
+    margin: 2rem auto 0;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px #c4c4c4;
+    align-self: flex-end;
+}
+.button:hover {
+    text-decoration: underline;
+    color:blue;
+    box-shadow: 3px 3px 2px #d3d3d3;
+}
+.button:active {
+    box-shadow: 1px 1px 1px #c4c4c4;
+}
+.images{
+	 margin: 10px auto 20px;
+	display:block;
+	max-width:55rem;
+	max-height:35rem
+}
+@media (min-width: 48rem) {
+    .columns {
+        flex-direction: row;
+    }
+.nav__item {
+  display: inline-block;
+}
+.nav__link {display: inline;
+}
+body {
+	background:orange;
+	color:white;
+}
+
+  
